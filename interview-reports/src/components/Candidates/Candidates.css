@@ -1,0 +1,43 @@
+div {
+    color: black;
+}
+
+.candidates {
+    margin: 0 auto;
+}
+
+.candidate {
+    margin: 5px;
+    text-align: center;
+    box-shadow: -1px 6px 11px 0px rgba(0, 0, 0, 0.63);
+    width: 70%;
+}
+
+img {
+    width: 100%;
+}
+
+.loadingImageDiv {
+    display: flex;
+    justify-content: center;
+}
+
+.loadingImage {
+    height: 100vh;
+}
+
+.candidates {
+    margin-bottom: 100px;
+}
+
+.noUsersDiv img {
+    width: 20%;
+}
+
+.noUsersDiv {
+    margin-top: 5%;
+}
+
+a {
+    text-decoration: none;
+}

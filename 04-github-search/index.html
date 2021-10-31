@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./assets/favicon-32x32.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+    <link rel="stylesheet" href="style.css">
+    <title>GitHub Search</title>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <div class="devfinder">
+                <p>devfinder</p>
+            </div>
+            <div class="btn-moon">
+                <button class="js-btn-mode">Dark </button>
+                <img class="js-moon-sun" src="./assets/icon-moon.svg" alt="" srcset="">
+            </div>
+        </header>
+        <nav>
+
+            <img src="./assets/icon-search.svg" alt="">
+            <input class="js-input" type="text" placeholder="Search GitHub username..">
+            <button class="js-btn-search">Search</button>
+            <p class="js-no-results"></p>
+
+        </nav>
+        <main>
+            <div class="cat-user">
+                <div class="js-cat-image">
+                    <img class="avatar" src="./assets/icon-moon.svg" alt="">
+                </div>
+                <div class="js-user-info">
+                    <div class="js-name">
+                        <p>The Octocat</p>
+                    </div>
+                    <div class="js-user"><span>@octocat</span></div>
+                    <div class="js-date">
+                        <p>joined 25 Jan 2011</p>
+                    </div>
+                </div>
+            </div>
+            <div class="js-about">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi et natus explicabo labore. Sint,
+                    suscipit.</p>
+            </div>
+            <div class="js-followers-contact">
+                <div class="followers">
+                    <div class="first-div-followers">
+                        <p class="followers-p">Repos</p>
+                        <p class="js-repos">12</p>
+                    </div>
+                    <div class="second-div-followers">
+                        <p class="followers-p">Followers</p>
+                        <p class="js-followers">2222</p>
+                    </div>
+                    <div class="third-div-followers">
+                        <p class="followers-p">Following</p>
+                        <p class="js-following">22222</p>
+                    </div>
+                </div>
+                <div class="js-location">
+                    <div class="contact-location first"><i class="fa fa-map-marker-alt js-marker"></i><span>San
+                            Francisco</span></div>
+                    <div class="contact-location second"><i class="fa fa-link js-link"></i><span>http://github.blog</span></div>
+                    <div class="contact-location third"><i class="fab fa-twitter js-twitterImage"></i><span><a
+                                target="_blank"></a></span></div>
+                    <div class="contact-location fourth"><i class="fa fa-building js-building"></i><span>@github</span></div>
+                </div>
+            </div>
+        </main>
+    </div>
+    <script src="./index.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,23 @@
+.selectWizardLinks {
+    text-decoration: none;
+    color: black;
+}
+
+.backButtonCompany {
+    left: 37%;
+}
+
+.nextButtonCompany {
+    right: 6%;
+}
+
+@media screen and (max-width: 576px) {
+    .backButtonCompany {
+        bottom: 10%;
+        left: 30%;
+    }
+
+    .nextButtonCompany {
+        left: 30%;
+    }
+}

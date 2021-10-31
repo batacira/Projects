@@ -1,0 +1,62 @@
+.containerModal {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.buttonModal {
+    min-width: 100px;
+    padding: 16px 32px;
+    border-radius: 4px;
+    border: none;
+    background: black;
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.topModalInfo {
+    width: 75%;
+    display: inline-block;
+}
+
+.closeButtonModal {
+    float: right;
+    height: 40px;
+    border: none;
+    background: transparent;
+}
+
+.hrLineModal {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.candidateInfoPopUp {
+    display: inline-block;
+}
+
+.candidateNotes {
+    margin: none;
+    float: right;
+    text-align: justify;
+}
+
+.notesModal {
+    display: inline-block;
+}
+
+.notesTextModal {
+    display: inline-block;
+}
+
+@media screen and (max-width: 600px) {
+    .ReactModal__Content {
+        inset: 10% 40px 40px 25% !important;
+    }
+    
+    .ReactModal__Content--after-open {
+        inset: 10% 40px 40px 25% !important;
+    }
+}

@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+
+h1 {
+    text-align: center;
+}
+
+#container-div {
+    border: 1px solid grey;
+    width: 90%;
+    margin: 0 auto;
+}
+
+#div-two {
+    width: 95%;
+    margin: 0 auto;
+}
+
+.para {
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+form {
+    border: 1px solid gray;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+input {
+    width: 98%;
+    padding: 10px;
+}
+
+select {
+    width: 98%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.btns {
+    width: 98%;
+    padding: 10px;
+    color: white;
+    background-color: rgb(76, 175, 79);
+    margin-top: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+ul {
+    list-style-image: url('../download17.png');
+}
+
+li {
+    animation-name: show;
+    animation-duration: 4s;
+    margin-left: 30px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+li:nth-child(2n) {
+    background-color: lightgray;
+}
+
+hr {
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+@keyframes show {
+    0% {
+        background-color: rgb(76, 175, 79);
+    }
+}

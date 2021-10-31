@@ -1,0 +1,36 @@
+.numberOne, .numberTwo, .numberThree {
+    width: 50px;
+}
+
+.oneCandidateToSelect {
+    border: 1px solid white;
+}
+
+.smallAvatar {
+    width: 25%;
+    border-radius: 50%;
+    height: 100%;
+}
+
+.selectWizardLinks {
+    text-decoration: none;
+    color: black;
+}
+
+.selectCandidates .oneCandidateToSelect:hover, .selectCandidates .oneCandidateToSelect:focus, .selectCandidates .oneCandidateToSelect:active {
+    border: 1px solid skyblue;
+    border-radius: 20px;
+}
+
+.selectCandidates .oneCandidateToSelect:hover {
+    cursor: pointer;
+}
+
+.searchBarCandidates {
+    padding-top: 0px;
+}
+
+.buttonNextSelectCandidate {
+    right: 8%;
+}
+

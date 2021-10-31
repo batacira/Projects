@@ -1,0 +1,535 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color:#F2F2F2 ;
+}
+
+.container {
+    width: 100%;
+}
+
+
+/* ************************   Header   *********************** */
+
+header {
+    display: flex;
+    justify-content: center;
+}
+
+.logo {
+    margin-top: 48px;
+    margin-bottom: 54px;
+}
+
+/* *************************    Main   *********************** */
+
+.hero {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+        "first second "
+        "third third ";
+        column-gap: 16px;
+}
+
+.image-hero-left {
+    grid-area: first;
+    position: relative;
+    left: -10%;
+}
+
+.image-hero-left img{
+    width: 100%;
+}
+
+.group-btns {
+    grid-area: third;
+    margin: 0px 24px;
+    text-align: center;
+    line-height: 44px;
+    
+}
+
+.image-hero-right {
+    grid-area: second;
+    position: relative;
+    right: -10%;
+
+}
+
+.image-hero-right img{
+    width: 100%;
+}
+
+.group-chat  {
+    font-size: 46px;
+    font-family: 'Red Hat Display';
+    font-weight: 900;
+    color: #28283D;
+    line-height: 44px;
+}
+
+.group-chat:first-child  {
+    font-size: 46px;
+    font-family: 'Red Hat Display';
+    font-weight: 900;
+    color: #28283D;
+    line-height: 44px;
+    margin-top: 44px;
+    margin-bottom: 24px;
+}
+
+.group-chat p:last-child {
+    font-size: 16px;
+    font-family: 'Red Hat Display';
+    font-weight: 500;
+    color: #87879D;
+    line-height: 26px;
+    margin-top: 24px;
+}
+
+
+.btn-one {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 16px;
+}
+
+.btn-one button{
+    width: 193px;
+    height: 58px;
+    background-color: #4D96A9;
+    border-radius: 29px;
+    font-family: 'Red Hat Display';
+    font-weight: 900;
+    color:#ffffff;
+    border: hidden;
+}
+
+.btn-one span{
+    color: #8FE3F9;
+}
+
+.btn-what {
+    display: flex;
+    justify-content: center;
+}
+
+.btn-what button{
+    width: 139px;
+    height: 58px;
+    background-color: #855FB1;
+    border-radius: 29px;
+    font-family: 'Red Hat Display';
+    font-weight: 900;
+    color:#ffffff;
+    border: hidden;
+}
+
+.btn-what span{
+    color: #8FE3F9;
+}
+
+.circle-num {
+    margin-top: 64px;
+    margin-bottom: 64px;
+}
+.circle {
+    width: 56px;
+    height: 56px;
+    border: 1px solid rgba(135,135,157, 0.25);
+    border-radius: 100px;
+    position: relative;
+    margin: 0px auto 0 auto;
+    background-color: #F2F2F2;
+    z-index: 10;
+  }
+  
+  .num{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+    color: #87879D;
+    font-family: 'Red Hat Display';
+    font-weight: 900;
+  }
+  
+  .vertical-line {
+    width: 2px;
+    height: 84px;
+    background: rgba(135,135,157, 0.25);
+    opacity: 0.25;
+    margin: 20px auto 0 auto;
+  }
+
+
+  .chat-images {
+      width: 327px;
+      display: grid;
+      grid-template-areas: 
+        "img-1 img-2 "
+        "img-3 img-4 ";
+        margin: 0 auto;
+        gap: 25px;
+  }
+
+  .chat-images img {
+      width: 100%;
+      grid-area: img-1;
+      border-radius: 8px;
+  }
+
+
+  .smart-meetings {
+      margin: 64px 26px;
+      text-align: center;
+      font-family: 'Red Hat Display';
+  }
+
+  .meetings h3 {
+      color: #4D96A9;
+      line-height: 26px;
+      letter-spacing: 4px;
+      font-size: 16px;
+      text-transform: uppercase;
+    }
+    
+    .meetings h1 {
+      color: #28283D;
+      font-size: 32px;
+      line-height: 36px;
+      margin-top: 24px;
+      margin-bottom: 32px;
+      font-weight: 900;
+
+  }
+
+  .meetings p {
+    color: #28283D;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 500;
+    color: #87879D;
+}
+
+/* *********************    footer   ************************ */
+
+
+
+footer {
+    position: relative;
+    height: 428px;
+    margin-top: -28px;
+    text-align: center;
+    font-family: 'Red Hat Display';
+    background: linear-gradient(rgba(77, 150, 169, 0.9), rgba(77, 150, 169, 0.9)), url(./assets/desktop/image-footer.jpg);
+    background-size: cover;
+    background-position: 50% 20%;
+  }
+
+.footer-div h2 {
+    padding-top: 92px;
+    color: #FAFAFA;
+    font-size: 32px;
+    line-height: 36px;
+    padding-bottom: 0;
+    text-align: center;
+}
+
+.footer-div p {
+    padding-top: 92px;
+    color: #FAFAFA;
+    font-size: 18px;
+    line-height: 26px;
+    width: 327px;
+    text-align: center;
+    padding-top: 24px;
+    padding-bottom: 32px;
+    margin: 0 auto;
+}
+
+.footer-div button {
+    width: 193px;
+    height: 58px;
+    background-color: #855FB1 ;
+    border-radius: 29px;
+    font-family: 'Red Hat Display';
+    font-weight: 900;
+    color:#ffffff;
+    border: hidden;
+    cursor: pointer;
+}
+
+
+
+/* ***********************************   Tablet  ************************************ */
+
+@media only screen and (min-width:768px) and (max-width:1199px){
+    
+    /* ******************* Main ******************** */
+
+    .group-btns  {
+        margin: 72px 155px 80px;
+    }
+    
+    .group-chat p:first-child  {
+        font-size: 48px;
+        margin-top: 72px;
+        margin-bottom: 24px;
+        text-align: center;
+        margin: 10px auto;
+        width: 339px;
+        height: 96px;
+    }
+
+    .group-chat p:last-child {
+        line-height: 26px;
+        text-align: center;
+        width: 457px;
+        margin-top: 24px;
+        margin-bottom: 8px;
+    }
+
+    .group-btns {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .btn-tablet {
+        display: flex;
+        justify-content: space-between;
+        width: 348px;
+        position: relative;
+    }
+    
+    .circle-num {
+        margin-top:8px;
+        margin-bottom: 67px;
+    }
+    
+    
+    .chat-images {
+        width: 689px;
+        display: grid;
+        grid-template-areas: 
+        "img-1 img-2 img-3 img-4 ";
+        
+        margin: 0 auto;
+        gap: 25px;
+        margin-top: 67px;
+        margin-bottom: 48px;
+    }
+    
+      .smart-meetings {
+          width: 573px;
+          margin: 0 auto;
+          margin-bottom: 80px;
+      }
+        
+        .meetings h1 {
+          font-size: 40px;
+          line-height: 44px;
+          text-align: center;
+          margin-left: 65px;
+          margin-right: 63px;
+      }
+
+
+    /* ***********************   Footer   *************************** */
+
+    .footer-div h2 {
+        font-size: 40px;
+        line-height: 44px;
+        padding-bottom: 32px;
+    }
+
+    .footer-div p {
+        padding-bottom: 38px;
+    }
+
+    .footer-div span {
+        color: #D9B8FF;
+    }
+    
+}
+
+
+/* *********************** Desktop ************************** */
+
+
+@media only screen and (min-width:1200px) {
+
+    /* ******************    Header   ****************** */
+
+    header .logo{
+        margin-top: 80px;
+    }
+
+    /* ******************   Main    *********************/
+    .hero {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-areas: 
+        "first third second";
+        column-gap: 0px;
+        margin: 0 auto;
+        justify-items: center;
+    }
+
+
+
+    .image-hero-left {
+        margin-left: 10%;
+    }
+
+    .group-btns {
+        grid-area: third;
+        text-align: center;
+        line-height: 44px;
+        width: 540px;
+        margin: 0 88px;
+    }
+    
+    .image-hero-right {
+        margin-right: 10%;
+    
+    }
+
+    .group-btns  {
+        margin: 0px 0px 0px;
+    }
+    
+    .group-chat p:first-child  {
+        font-size: 64px;
+        text-align: center;
+        height: 128px;
+        line-height: 64px;
+    }
+    
+    .group-chat p:last-child {
+        margin-bottom: 32px;
+        margin-top: 34px;
+        font-size: 18px;
+        text-align: center;
+        width: 540px;
+        padding: 0px;
+    }
+
+    .btn-one button:hover {
+        background-color: #71C0D4;
+        cursor: pointer;
+    }
+
+    .btn-what button:hover {
+        background-color: #B18BDD;
+        cursor: pointer;
+    }
+    
+    
+    .btn-tablet {
+        height: 58px;
+    }
+
+    .group-btns {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .btn-tablet {
+        display: flex;
+        justify-content: space-between;
+        width: 348px;
+        position: relative;
+    }
+    
+
+    .circle-num {
+        margin-top:110px;
+    }
+    
+    .chat-images {
+        width: 1110px;
+        display: grid;
+        grid-template-areas: 
+        "img-1 img-2 img-3 img-4 ";
+        
+        margin: 0 auto;
+        gap: 25px;
+        margin-bottom: 80px;
+      }
+  
+      .smart-meetings {
+          width: 573px;
+          margin: 0 auto;
+          margin-bottom: 72px;
+      }
+        
+        .meetings h1 {
+          font-size: 40px;
+          line-height: 44px;
+          margin-top: 16px;
+          margin-bottom: 32px;
+          text-align: center;
+          margin-left: 65px;
+          margin-right: 63px;
+      }
+    
+      .meetings p {
+        font-size: 18px;
+        margin-bottom: 72px;
+    }
+    
+/* ************************   Footer   **************************** */
+ 
+
+    .foot {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 428px;
+    }
+   
+    .div-des {
+        display: flex;
+        height: 88px;
+        width: 1110px;
+        justify-content: space-around;
+        align-items:center
+    }
+
+    .footer-div h2 {
+        width: 350px;
+        text-align: left;
+        padding-bottom: 100px;
+    }
+
+    .footer-div p {
+        font-size: 18px;
+        width: 350px;
+        text-align: left;
+        align-items: center;
+    }
+
+    .footer-div span {
+        color: #D9B8FF;
+    }
+
+    .footer-div button:hover {
+        background-color: #B18BDD;
+        cursor: pointer;
+    }
+
+}

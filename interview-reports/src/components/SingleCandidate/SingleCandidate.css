@@ -1,0 +1,37 @@
+.imagePlaceholder {
+    width: 100%;
+}
+
+table {
+    border: 1px solid black;
+    width: 90%;
+}
+
+tr {
+    border: 1px solid black;
+}
+
+th {
+    border: 1px solid black;
+}
+
+td {
+    border: 1px solid black;
+}
+
+.loadingImageDiv {
+    display: flex;
+    justify-content: center;
+}
+
+.loadingImage {
+    height: 100vh;
+}
+
+.singleCandidateReports {
+    margin-bottom: 100px;
+}
+
+.imagePlaceholder {
+    width: 60%;
+}

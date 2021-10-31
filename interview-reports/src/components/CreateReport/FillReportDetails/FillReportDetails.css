@@ -1,0 +1,28 @@
+.inputfield {
+    height: 230px
+}
+
+.selectWizardLinks {
+    text-decoration: none;
+    color: black;
+}
+
+.backButtonFillReports {
+    left: 37%;
+}
+
+.nextButtonFillReports {
+    right: 5%;
+}
+
+
+@media screen and (max-width: 576px) {
+    .backButtonFillReports {
+        bottom: 10%;
+        left: 66%;
+    }
+
+    .nextButtonFillReports {
+        left: 66%;
+    }
+}

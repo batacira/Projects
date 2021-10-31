@@ -1,0 +1,7 @@
+.singleCompanyCandidateReport {
+    display: flex;
+}
+
+.companyNameReport {
+    display: inline-block;
+}

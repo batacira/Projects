@@ -1,0 +1,10 @@
+.interviewsReports {
+    text-decoration: none;
+}
+
+@media screen and (max-width: 992px) {
+    .pagesButtons button {
+        width: 40%;
+    }
+}
+
