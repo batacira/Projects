@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video player</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css" />
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="container">
+        <video class="video" src='./clip1.mp4'></video>
+        <div class="display-controls">
+            <div class="controls-container">
+                <div class="js-progress-range">
+                    <div class="js-progress-bar"></div>
+                </div>
+                <div class="all-controls">
+                    <div class="controls-left">
+                        <div class="play-controls">
+                            <i class="fas fa-play js-play-btn"></i>
+                        </div>
+                        <div class="volume">
+                            <div class="volume-icon">
+                                <i class="fas fa-volume-up js-volume-up"></i>
+                            </div>
+                            <div class="js-volume-range">
+                                <div class="js-volume-bar"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="controls-right">
+                        <div class="speed">
+                            <select name="playbackRate" class="js-player-speed">
+                                <option value="0.5">0.5 x</option>
+                                <option value="0.75">0.75 x</option>
+                                <option value="1" selected>1.0 x</option>
+                                <option value="1.5">1.5 x</option>
+                                <option value="2">2.0 x</option>
+                            </select>
+                        </div>
+                        <div class="time">
+                            <span class="js-time-elapsed">00:00 / </span>
+                            <span class="js-time-duration">05:17</span>
+                        </div>
+                        <div class="fullscreen">
+                            <i class="fas fa-expand"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

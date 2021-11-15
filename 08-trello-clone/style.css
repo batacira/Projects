@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+header {
+  display: flex;
+  background-color: #6fb98f;
+  height: 50px;
+  justify-content: center;
+  padding-top: 10px;
+}
+
+body {
+  background-color: #2c7873;
+  color: white;
+}
+
+main {
+  margin-left: 100px;
+}
+
+section {
+  margin-top: 60px;
+  display: flex;
+}
+
+.add-item-wrapper {
+  display: flex;
+}
+
+.add-item-wrapper .item-value {
+  padding-left: 17px;
+  margin-top: 1px;
+  height: 46px;
+  width: 240px;
+  border-radius: 0px;
+  margin-right: 8px;
+  font-size: 16px;
+  line-height: 19px;
+  outline: none;
+  border-radius: 10px;
+}
+
+.add-item-wrapper #item-value ::placeholder {
+  color: #fff;
+}
+
+.add-item-wrapper .js-add-item {
+  background: #004445;
+  border: none;
+  border-radius: 4px;
+  width: 50px;
+  height: 50px;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.columns {
+  margin-top: 40px;
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.column {
+  width: 340px;
+  height: 720px;
+  border-radius: 5px;
+  margin-left: 40px;
+  background-color: #6fb98f;
+  padding-bottom: 20px;
+  overflow-x: auto;
+}
+
+.column:nth-child(1) {
+  margin-left: 0px;
+}
+
+.column:hover {
+  border: 1px solid #004445;
+  box-shadow: 0px 1px 6px #004445;
+}
+
+.column-title {
+  margin: 24px 0px 0px 24px;
+  font-weight: 600;
+  font-size: 24px;
+}
+
+.item {
+  list-style-type: none;
+  margin: 15px 0px 0px 24px;
+  padding: 10px 9px 10px 10px;
+  position: relative;
+  background-color: #fff;
+  box-sizing: border-box;
+  border-radius: 5px;
+  min-height: 80px;
+  width: 290px;
+  cursor: grab;
+}
+
+.item .item-content {
+  margin: 16px 16px 0 16px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: #004445;
+}
+
+.item:hover {
+  background: #FFFFFF;
+  border: 1px solid #004445;
+  box-sizing: border-box;
+  box-shadow: 0px 1px 4px #004445;
+  border-radius: 2px;
+}
+
+.item .deleteItem {
+  position: absolute;
+  top: 3px;
+  right: 8px;
+  color: #004445;
+  cursor: pointer;
+  font-size: 25px;
+}
+
+.item .deleteItem:hover {
+  color: #6fb98f;
+}
+
+.hold:active:hover {
+  border: solid 3px #004445;
+}

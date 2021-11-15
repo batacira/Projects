@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;700&display=swap');
+.footer {
+    height: 150px;
+    background-color: rgb(249, 251, 246);
+    font-size: large;
+    font-weight: 600;
+    color: rgb(34, 36, 6);
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    flex-wrap: wrap;
+    font-family: 'Work Sans';
+    height: inherit;
+    padding: 100px;
+    position: inherit;
+}

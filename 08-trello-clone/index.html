@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Trello Clone</title>
+</head>
+
+<body>
+    <header>
+        <div>
+            <h1>Trello Clone</h1>
+        </div>
+    </header>
+    <main>
+        <section>
+            <div class="add-item-wrapper">
+                <input class="item-value" placeholder="Add item">
+                <button class="js-add-item">+</button>
+            </div>
+        </section>
+        <section class="columns">
+            <div class="column js-can-drop">
+                <h3 class="column-title">Backlog</h3>
+                <ul class="items" id="items-added"></ul>
+            </div>
+            <div class="column js-can-drop">
+                <h3 class="column-title">In Progress</h3>
+            </div>
+            <div class="column js-can-drop">
+                <h3 class="column-title">Complete</h3>
+            </div>
+            <div class="column js-can-drop">
+                <h3 class="column-title">On Hold</h3>
+            </div>
+        </section>
+    </main>
+    <script src="./index.js"></script>
+</body>
+
+</html>

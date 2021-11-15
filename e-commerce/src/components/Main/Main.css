@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;700&display=swap');
+.products {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 30px 150px 0px 150px;
+}
+
+.single-product {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.btn-add-to-card {
+    padding: 12px 14px;
+    background-color: palegoldenrod;
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;
+    font-family: 'Work Sans';
+    font-weight: 500;
+    transition: 0.3s ease-out;
+}
+
+.btn-add-to-card:hover {
+    padding: 12px 35px;
+}
+
+.btn-add-to-card:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+.single-product {
+    font-size: 22px;
+}
+
+.text-link {
+    text-decoration: none;
+    list-style-type: none;
+    color: black;
+    display: block;
+}
+
+.product-title {
+    margin-bottom: 10px;
+}

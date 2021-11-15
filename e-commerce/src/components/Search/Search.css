@@ -1,0 +1,19 @@
+.search {
+    width: 500px;
+    height: 40px;
+    font-size: 20px;
+    margin-left: 700px;
+    border-radius: 10px;
+    padding-left: 15px;
+    margin-top: 10px;
+    border: 1px solid grey;
+    box-shadow: 1px 3px 5px 0px rgba(0, 0, 0, 0.75);
+    outline-width: 0;
+}
+
+.search-products {
+    font-size: 30px;
+    color: rgb(215, 185, 125);
+    margin-left: -40px;
+    margin-bottom: -5px;
+}
